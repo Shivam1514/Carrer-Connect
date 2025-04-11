@@ -36,7 +36,7 @@ const Register = (props) => {
   const formSubmitHandler = (values, setSubmitting) => {
     setShowSpinner(true);
     axios
-      .post(`http://localhost:8080/auth/register`, { ...values })
+      .post(`https://carrer-connect-bhn6.onrender.com/auth/register`, { ...values })
       .then((res) => {
         setShowSpinner(false);
         toast.success(res.data.message, {
