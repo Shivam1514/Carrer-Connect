@@ -10,7 +10,7 @@ const Navbar1 = () => {
       <Container fluid>
         <Link style={{ textDecoration: "none" }} to="/">
           <Navbar.Brand className={classes.brand}>
-            Job Hunt
+             Career Connect
             {/* <BsSearch /> */}
             {/* <VscSearch/> */}
           </Navbar.Brand>
