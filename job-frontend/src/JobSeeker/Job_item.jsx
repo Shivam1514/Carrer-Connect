@@ -5,12 +5,12 @@ function Jobitem({ item, jobApply }) {
   const tag = item.title.split(" ")[0].toLowerCase();
   return (
     <Card style={{ width: "18rem" }}>
-      <div className={classes.images}>
+{/*       <div className={classes.images}>
         <Card.Img
           variant="top"
           src={`https://source.unsplash.com/276x170?${tag}+computer`}
         />
-      </div>
+      </div> */}
       <Card.Body>
         <Card.Title>
           <h4>{item.title} Role</h4>
