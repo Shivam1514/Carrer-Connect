@@ -1,0 +1,69 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 20px; /* Added padding for spacing */
+}
+
+.App-link {
+  color: #61dafb;
+  font-size: calc(12px + 1vmin); /* Responsive font size */
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .App-logo {
+    height: 30vmin; /* Slightly smaller logo on medium screens */
+  }
+
+  .App-header {
+    font-size: calc(8px + 3vmin); /* Slightly smaller text for smaller screens */
+  }
+
+  .App-link {
+    font-size: calc(10px + 2vmin); /* Adjust link font size */
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .App-logo {
+    height: 25vmin; /* Smaller logo on small screens */
+  }
+
+  .App-header {
+    font-size: calc(6px + 4vmin); /* Adjust text size for small screens */
+    padding: 15px; /* Reduce padding */
+  }
+
+  .App-link {
+    font-size: calc(8px + 3vmin); /* Adjust font size for smaller screens */
+  }
+}

@@ -1,0 +1,191 @@
+.span1 {
+  background-color: white;
+  padding: 10px;
+  font-size: 1.25rem;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.design {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.btnstyle {
+  text-decoration: none;
+  color: white;
+  float: right;
+}
+
+.btnstyle:hover {
+  filter: brightness(95%);
+}
+
+.btnstyle > a:hover {
+  color: white;
+  filter: brightness(105%);
+}
+
+.secspan {
+  background-color: white;
+  padding: 15px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  font-size: 15px;
+  margin-bottom: 40px;
+}
+
+.fstyle {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.aligningst {
+  padding: 7px;
+  margin: 0px 15px;
+}
+
+.sty11 {
+  text-decoration: none;
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .span1 {
+    font-size: 1rem;
+    padding: 8px;
+    margin: 8px 0;
+  }
+
+  .design {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+
+  .secspan {
+    font-size: 14px;
+    padding: 12px;
+    margin-bottom: 30px;
+  }
+
+  .fstyle {
+    font-size: 1rem;
+  }
+
+  .btnstyle {
+    display: block;
+    text-align: center;
+    float: none;
+    margin-top: 10px;
+  }
+
+  .aligningst {
+    padding: 5px;
+    margin: 5px 10px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .span1 {
+    font-size: 1.1rem;
+    padding: 9px;
+    margin: 9px 0;
+  }
+
+  .design {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .secspan {
+    font-size: 14px;
+    padding: 13px;
+    margin-bottom: 35px;
+  }
+
+  .fstyle {
+    font-size: 1.1rem;
+  }
+
+  .btnstyle {
+    display: block;
+    text-align: center;
+    float: none;
+    margin-top: 10px;
+  }
+
+  .aligningst {
+    padding: 6px;
+    margin: 7px 12px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .span1 {
+    font-size: 1.2rem;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .design {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .secspan {
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 40px;
+  }
+
+  .fstyle {
+    font-size: 1.2rem;
+  }
+
+  .btnstyle {
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .aligningst {
+    padding: 7px;
+    margin: 10px 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .span1 {
+    font-size: 1.25rem;
+    padding: 10px;
+    margin: 10px 0;
+  }
+
+  .design {
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .secspan {
+    font-size: 15px;
+    padding: 15px;
+    margin-bottom: 40px;
+  }
+
+  .fstyle {
+    font-size: 1.2rem;
+  }
+
+  .btnstyle {
+    display: inline-block;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .aligningst {
+    padding: 7px;
+    margin: 10px 15px;
+  }
+}

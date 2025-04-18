@@ -1,0 +1,85 @@
+.rowStyle {
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.span {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  text-align: center;
+}
+
+.tableHeader th {
+  text-align: left;
+  background-color: #2b63fd;
+  font-size: 16px;
+  color: white;
+  padding: 8px;
+}
+
+.tableBody tr {
+  background-color: white;
+}
+
+.tableBox {
+  margin-top: 30px;
+  box-shadow: 3px 3px 5px 1px rgb(0, 0, 0, 0.25);
+}
+
+@media screen and (max-width: 600px) {
+  .rowStyle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .tableHeader th {
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .tableBox {
+    margin-top: 20px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .rowStyle {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .span {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+  }
+
+  .tableHeader th {
+    font-size: 15px;
+    padding: 7px;
+  }
+
+  .tableBox {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .span {
+    width: 30%;
+    text-align: center;
+  }
+
+  .tableHeader th {
+    font-size: 16px;
+    padding: 8px;
+  }
+}

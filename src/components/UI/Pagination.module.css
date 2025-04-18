@@ -1,0 +1,16 @@
+.paginate {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1rem 0;
+}
+
+/* Center pagination on smaller screens */
+@media (max-width: 768px) {
+  .paginate {
+    justify-content: center;
+  }
+}

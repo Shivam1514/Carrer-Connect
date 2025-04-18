@@ -1,0 +1,46 @@
+.manageUsers {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-left: 0;
+}
+
+.span {
+  background-color: white;
+  padding: 8px;
+  border: 1px solid rgb(39, 39, 39);
+  border-radius: 4px;
+  text-align: center;
+  width: fit-content;
+}
+
+/* Mobile Devices (up to 600px) */
+@media screen and (max-width: 600px) {
+  .manageUsers {
+    justify-content: center;
+    margin-left: 0;
+  }
+
+  .span {
+    width: 100%;
+  }
+}
+
+/* Tablets (600px to 900px) */
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .manageUsers {
+    justify-content: space-between;
+  }
+
+  .span {
+    width: 45%;
+  }
+}
+
+/* Small Desktops (900px to 1200px) */
+@media screen and (min-width: 900px) and (max-width: 1200px) {
+  .span {
+    width: 30%;
+  }
+}

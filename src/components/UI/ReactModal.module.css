@@ -1,0 +1,49 @@
+.reactModal {
+  height: 400px;
+  overflow-y: auto;
+  max-height: 80vh;
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+/* Responsive adjustment for smaller screens */
+@media (max-width: 480px) {
+  .reactModal {
+    height: auto;
+    max-height: 75vh;
+  }
+}
+
+.submitBtn {
+  display: block;
+  text-align: center;
+  padding: 10px;
+  border: 1px solid rgb(71, 71, 121);
+  background-color: #2b63fd;
+  width: 80%;
+  margin: 10px auto;
+  color: white;
+  font-size: 1.25rem;
+  border-radius: 10px;
+  box-shadow: 3px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: all 0.2s ease-in-out;
+}
+
+.submitBtn:active {
+  transform: translateY(5px);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.submitBtn:hover {
+  filter: brightness(115%);
+  color: white;
+}
+
+/* Optional: Add responsive text sizing for the button */
+@media (max-width: 480px) {
+  .submitBtn {
+    font-size: 1rem;
+    padding: 8px;
+    width: 90%;
+  }
+}
